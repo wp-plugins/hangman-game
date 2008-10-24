@@ -1,0 +1,7 @@
+#hangman{ }	
+#hangman H1		{font-family: "Courier New", Courier, monospace; font-size: 18pt;}
+#hangman P		{font-family: Verdana, Arial, sans-serif; font-size: 12pt;}
+#hangman A:link	{COLOR: #0000FF; TEXT-DECORATION: underline;}
+#hangman A:visited	{COLOR: #0000FF; TEXT-DECORATION: underline;}
+#hangman A:active	{COLOR: #0000FF; TEXT-DECORATION: underline;}
+#hangman A:hover	{COLOR: #FF0000; TEXT-DECORATION: underline;}
