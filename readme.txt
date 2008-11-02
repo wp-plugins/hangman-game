@@ -4,7 +4,7 @@ Donate link: http://www.farbundstil.de/games/1036-wordpress-game-plugin.php
 Tags: game, hangman, gaming
 Requires at least: 2.0.2
 Tested up to: 2.6
-Stable tag: 1.0
+Stable tag: 1.1
 
 == Description ==
 

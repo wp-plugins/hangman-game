@@ -3,7 +3,7 @@
 Plugin Name: Hangman game
 Plugin URI: http://www.farbundstil.de/games/1036-wordpress-game-plugin.php
 Description: Put a simple hangman game on your wordpress site 
-Version: 1.0
+Version: 1.1
 Author: Marcel Hollerbach
 Author URI: http://www.farbundstil.de
 
@@ -43,7 +43,6 @@ if ( !defined('WP_CONTENT_URL') )
 define('HANGMAN_URLPATH', WP_CONTENT_URL.'/plugins/'.plugin_basename( dirname(__FILE__)).'/' );
 
 add_action('wp_head', 'HANGMAN_addcss', 1);
-add_action('wp_head', 'HANGMAN_addrobot', 1);
 
 //Add stylesheet to site
 function HANGMAN_addcss(){
@@ -52,10 +51,6 @@ function HANGMAN_addcss(){
 
 }
 
-//To prevent Google from playing hangman, add the lines in the <head> part
-function HANGMAN_addrobot(){
-    echo "<META NAME=\"robots\" CONTENT=\"NOINDEX,NOFOLLOW\">";
-}
 
 
 function HANGMAN_plugin_callback($match)
